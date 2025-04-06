@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor</title>
+    <!-- link stylesheet -->
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!-- logo -->
+    <link rel="icon" href="logo2.png">
+    <!-- linked javascript  -->
+    <script defer src="slider.js"></script>
+    <!-- linked font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div class="nav-logo">
+                <i class="fa-solid fa-bars"></i>
+                <a href=""> <img class="navabar_titleicon"
+                    src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
+                    alt=""></a>
+            </div>
+            
+            <div class="navbar-links">
+                <h4 class="navabar-link"><a href="">Discover</a></h4>
+                <h4 class="navabar-link"><a href="">Trips</a></h4>
+                <h4 class="navabar-link"><a href="">Review</a></h4>
+                <h4 class="navabar-link_formus"><a href="">Forums</a></h4>
+            </div>
+            <!--  -->
+            <div class="signin">
+                <div class="preferences"><a href="">
+                        <i class="fa-solid fa-globe fa-sm"></i>
+                        <i class="fa-solid fa-minus fa-rotate-270 fa-lg" style="color: lightgray;"></i>
+                        <h4>INR</h4>
+                    </a>
+                </div>
+
+                <div class="signin__button"><button class="signin_btn">Sign in</button></div>
+
+
+            </div>
+        </nav>
+
+        <div class="sec-1">
+            <h1>Where to?</h1>
+        </div>
+        <div class="sec-2">
+            <div class="sec-2__navbar">
+                <i class="fa-solid fa-house "></i>
+                <h4>Search All</h4>
+            </div>
+            <div class="sec-2__navbar">
+                <i class="fa-solid fa-hotel"></i>
+                <h4>Hotels</h4>
+            </div>
+            <div class="sec-2__navbar">
+                <i class="fa-solid fa-camera "></i>
+                <h4>Things to do</h4>
+            </div>
+            <div class="sec-2__navbar">
+                <i class="fa-solid fa-utensils "></i>
+                <h4>Restarunts</h4>
+            </div>
+            <div class="sec-2__navbar">
+                <i class="fa-solid fa-plane "></i>
+                <h4>Flights</h4>
+            </div>
+            <div class="sec-2__navbar">
+                <i class="fa-solid fa-house-lock "></i>
+                <h4>Holiday Homes</h4>
+            </div>
+
+        </div>
+        <div class="sec-3-search">
+            <div class="sec-3">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                <input type="text" class="navbar__search" placeholder="Place to go,Things to do,hotels....">
+                <button>Search</button>
+            </div>
+        </div>
+
+
+        <div class="sec-4">
+            <img class="main-image" src="main image-2.webp" alt="">
+        </div>
+
+        <div class="sec-5-cover">
+            <div class="sec-5">
+                <h2 class="sec-5__title">Explore the world's most stunning seasides</h2>
+
+                <p class="sec-5__description">2025's Traveller's Choice Awards Best of the Beaches </p>
+                <button class="prev" onclick="moveSlide(-1)"><i class="fa-solid fa-arrow-left fa-lg"></i></button>
+                <div class="sliders">
+                    <!-- <div class="seaside__container"></div> -->
+
+                    <div class="slide__images">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/c1/4f/f7/caption.jpg?w=600&h=-1&s=1"
+                            alt="">
+                        <h1 class="seaside__title">World</h1>
+
+                    </div>
+                    <div class="slide__images">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/c1/50/7b/caption.jpg?w=600&h=-1&s=1"
+                            alt="">
+                        <h1 class="seaside__title">Eroupe</h1>
+
+                    </div>
+                    <div class="slide__images">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/c1/50/f6/caption.jpg?w=600&h=-1&s=1"
+                            alt="">
+                        <h1 class="seaside__title">Asia</h1>
+
+                    </div>
+                    <div class="slide__images">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/c1/51/0b/caption.jpg?w=600&h=-1&s=1"
+                            alt="">
+                        <h1 class="seaside__title">South Pacific</h1>
+
+                    </div>
+                    <div class="slide__images">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/c1/51/9a/caption.jpg?w=600&h=-1&s=1"
+                            alt="">
+                        <h1 class="seaside__title">Carabbiean</h1>
+
+                    </div>
+                    <div class="slide__images">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/c1/51/9a/caption.jpg?w=600&h=-1&s=1"
+                            alt="">
+                        <h1 class="seaside__title">World</h1>
+
+                    </div>
+                    <div class="slide__images">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/c1/51/9a/caption.jpg?w=600&h=-1&s=1"
+                            alt="">
+                        <h1 class="seaside__title">Eroupe</h1>
+
+                    </div>
+                </div>
+                <button class="next" onclick="moveSlide(1)"><i class="fa-solid fa-arrow-right fa-lg"></i></button>
+            </div>
+        </div>
+
+        <div class="sec-5-cover">
+            <div class="sec-5">
+                <h2 class="sec-5__title">Top Experiences on Tripadvisor</h2>
+                <p class="sec-5__description">The best tours, activities and tickets </p>
+
+                <button class="prev" onclick="moveSlide1(-1)"><i class="fa-solid fa-arrow-left fa-lg"></i></button>
+
+                <div class="sliders1">
+                    <!-- <div class="seaside__container"></div> -->
+
+                    <div class="slide__images1">
+                        <div class="slideimage">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/5b/1a/6d/caption.jpg?w=600&h=600&s=1"
+                                alt="">
+                        </div>
+
+                        <div class="slide__description">
+                            <h4>Half-Day Railway Market and Floating Market Tour in Thailand</h4>
+                            <p>4.5 ⭐⭐⭐⭐ (2,044)</p>
+                            <h5>from ₹2,568 per adult</h5>
+                        </div>
+
+                    </div>
+                    <div class="slide__images1">
+                        <div class="slideimage">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/5e/05/85/caption.jpg?w=600&h=600&s=1"
+                                alt="">
+                        </div>
+
+                        <div class="slide__description">
+                            <h4>Fontainhas Heritage Walk by
+                                Make It Happen</h4>
+                            <p>4.5 ⭐⭐⭐⭐ (2,044)</p>
+                            <h5>from ₹2,568 per adult</h5>
+                        </div>
+
+                    </div>
+                    <div class="slide__images1">
+                        <div class="slideimage">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/c3/c8/51/caption.jpg?w=600&h=600&s=1"
+                                alt="">
+                        </div>
+
+                        <div class="slide__description">
+                            <h4>Ninh Binh Full-Day Tour from
+                                Hanoi to Hoa Lu, Tam Coc & Mua
+                                Cave Via Boat & Bike</h4>
+                            <p>4.5 ⭐⭐⭐⭐ (2,044)</p>
+                            <h5>from ₹2,568 per adult</h5>
+                        </div>
+
+                    </div>
+                    <div class="slide__images1">
+                        <div class="slideimage">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/c1/4f/f7/caption.jpg?w=600&h=-1&s=1"
+                                alt="">
+                        </div>
+
+                        <div class="slide__description">
+                            <h4>Cu Chi Tunnels and Mekong Delta
+                                Full Day Tour</h4>
+                            <p>4.5 ⭐⭐⭐⭐ (2,044)</p>
+                            <h5>from ₹2,568 per adult</h5>
+                        </div>
+                    </div>
+                    <div class="slide__images1">
+                        <div class="slideimage">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/72/05/3a/caption.jpg?w=600&h=600&s=1"
+                                alt="">
+                        </div>
+
+                        <div class="slide__description">
+                            <h4>Dubai Marina Yacht Tour with Optional Breakfast or BBQ</h4>
+                            <p>4.5 ⭐⭐⭐⭐ (2,044)</p>
+                            <h5>from ₹2,568 per adult</h5>
+                        </div>
+                    </div>
+
+                    <div class="slide__images1">
+                        <div class="slideimage">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/5e/05/85/caption.jpg?w=600&h=600&s=1"
+                                alt="">
+                        </div>
+
+                        <div class="slide__description">
+                            <h4>Atlantis Aquaventure Ticket (with options for Aquarium), Dubai</h4>
+                            <p>4.5 ⭐⭐⭐⭐ (2,044)</p>
+                            <h5>from ₹2,568 per adult</h5>
+                        </div>
+
+                    </div>
+                    <div class="slide__images1">
+                        <div class="slideimage">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/aa/d4/f5/caption.jpg?w=600&h=600&s=1"
+                                alt="">
+                        </div>
+
+                        <div class="slide__description">
+                            <h4>Dubai Aladdin Tour: Souks, Creek, Old Dubai and Tastings</h4>
+                            <p>4.5 ⭐⭐⭐⭐ (2,044)</p>
+                            <h5>from ₹2,568 per adult</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="next" onclick="moveSlide1(1)"><i class="fa-solid fa-arrow-right fa-lg"></i></button>
+            </div>
+        </div>
+
+        <div class="sec-5-cover">
+            <div class="sec-5">
+                <h2 class="sec-5__title">Ways to tour Coimbatore</h2>
+                <p class="sec-5__description">Book these experiences for a close-up look at Coimbatore. </p>
+
+                <button class="prev" onclick="moveSlide2(-1)"><i class="fa-solid fa-arrow-left fa-lg"></i></button>
+
+                <div class="sliders2">
+                    <!-- <div class="seaside__container"></div> -->
+
+                    <div class="slide__images2">
+                        <div class="slideimage">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/98/55/dc/caption.jpg?w=600&h=600&s=1"
+                                alt="">
+                        </div>
+
+                        <div class="slide__description">
+                            <h4>Explore The Gedee Car Museum In Coimbatore</h4>
+                            <p>4.5 ⭐⭐⭐⭐ (2,044)</p>
+                            <h5>from ₹2,568 per adult</h5>
+                        </div>
+
+                    </div>
+                    <div class="slide__images2">
+                        <div class="slideimage">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/98/55/a7/caption.jpg?w=600&h=600&s=1"
+                                alt="">
+                        </div>
+
+                        <div class="slide__description">
+                            <h4>Gass Forest Museum with Lunch - Coimbatore</h4>
+                            <p>4.5 ⭐⭐⭐⭐ (2,044)</p>
+                            <h5>from ₹2,568 per adult</h5>
+                        </div>
+
+                    </div>
+                    <div class="slide__images2">
+                        <div class="slideimage">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/cf/39/4c/caption.jpg?w=600&h=600&s=1"
+                                alt="">
+                        </div>
+
+                        <div class="slide__description">
+                            <h4>Explore Palani Murugan Temple From Coimbatore</h4>
+                            <p>4.5 ⭐⭐⭐⭐ (2,044)</p>
+                            <h5>from ₹2,568 per adult</h5>
+                        </div>
+
+                    </div>
+                    <div class="slide__images2">
+                        <div class="slideimage">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/04/ad/eb/caption.jpg?w=600&h=600&s=1"
+                                alt="">
+                        </div>
+
+                        <div class="slide__description">
+                            <h4>Ooty & Kumarakom Tour</h4>
+                            <p>4.5 ⭐⭐⭐⭐ (2,044)</p>
+                            <h5>from ₹2,568 per adult</h5>
+                        </div>
+                    </div>
+                    <div class="slide__images2">
+                        <div class="slideimage">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/6f/63/7f/caption.jpg?w=600&h=600&s=1"
+                                alt="">
+                        </div>
+
+                        <div class="slide__description">
+                            <h4>Coimbatore to Ooty- transfers+Hotel+Sightseeing</h4>
+                            <p>4.5 ⭐⭐⭐⭐ (2,044)</p>
+                            <h5>from ₹2,568 per adult</h5>
+                        </div>
+                    </div>
+
+                    <div class="slide__images2">
+                        <div class="slideimage">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/85/74/38/caption.jpg?w=600&h=600&s=1"
+                                alt="">
+                        </div>
+
+                        <div class="slide__description">
+                            <h4>Half-Day Private Tour to Adiyogi Shiva and Dhyanalinga Temple</h4>
+                            <p>4.5 ⭐⭐⭐⭐ (2,044)</p>
+                            <h5>from ₹2,568 per adult</h5>
+                        </div>
+
+                    </div>
+                    <div class="slide__images2">
+                        <div class="slideimage">
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/aa/d4/f5/caption.jpg?w=600&h=600&s=1"
+                                alt="">
+                        </div>
+
+                        <div class="slide__description">
+                            <h4>Romantic tour in Coimbatore</h4>
+                            <p>4.5 ⭐⭐⭐⭐ (2,044)</p>
+                            <h5>from ₹2,568 per adult</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="next" onclick="moveSlide2(1)"><i class="fa-solid fa-arrow-right fa-lg"></i></button>
+            </div>
+        </div>
+    </main>
+    <div class="sec-6">
+        <button class="prev1" onclick="moveSlide3(-1)"><i class="fa-solid fa-arrow-left fa-lg"></i></button>
+        <div class="sec-6-container">
+            <h2 class="sec-6__title">More to explore</h2>
+
+            <div class="sliders3">
+
+                <div class="slide__images3">
+                    <div class="slideimage1">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/12/65/68/e83d929f-2c91-453b.jpg?w=800&h=500&s=1"
+                            alt="">
+                    </div>
+                    <div class="slide3__description">
+                        <h4>7 Bangkok hotels that highlight Thailand's spectacular architecture</h4>
+                    </div>
+                </div>
+                <div class="slide__images3">
+                    <div class="slideimage1">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/13/54/6e/5f4417e0-7b51-4005.jpg?w=800&h=500&s=1"
+                            alt="">
+                    </div>
+                    <div class="slide3__description">
+                        <h4>3 days in Tokyo: The perfect itinerary</h4>
+                    </div>
+                </div>
+                <div class="slide__images3">
+                    <div class="slideimage1">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/12/64/86/6a72f4a1-c7dc-4847.jpg?w=800&h=500&s=1"
+                            alt="">
+                    </div>
+                    <div class="slide3__description">
+                        <h4>Where Bali's best chefs go on their days off</h4>
+                    </div>
+                </div>
+                <div class="slide__images3">
+                    <div class="slideimage1">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/12/63/f0/55d84896-a06a-43cf.jpg?w=800&h=-1&s=1"
+                            alt="">
+                    </div>
+                    <div class="slide3__description">
+                        <h4>6 incredible places to visit near Phuket</h4>
+                    </div>
+                </div>
+                <div class="slide__images3">
+                    <div class="slideimage1">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/12/6f/ca/34007c88-87c2-4611.jpg?w=800&h=500&s=1"
+                            alt="">
+                    </div>
+                    <div class="slide3__description">
+                        <h4>3 perfect days in Chiang Mai</h4>
+                    </div>
+                </div>
+                <div class="slide__images3">
+                    <div class="slideimage1">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/12/6f/9b/be727c48-ffbd-4bbc.jpg?w=800&h=-1&s=1"
+                            alt="">
+                    </div>
+                    <div class="slide3__description">
+                        <h4>11 gorgeous places in India that have to be seen to be believed</h4>
+                    </div>
+                </div>
+                <div class="slide__images3">
+                    <div class="slideimage1">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/12/64/28/22173b5f-2e95-401f.jpg?w=800&h=500&s=1"
+                            alt="">
+                    </div>
+                    <div class="slide3__description">
+                        <h4>17 cool stays by the water for a once-in-a-lifetime trip</h4>
+                    </div>
+                </div>
+                <div class="slide__images3">
+                    <div class="slideimage1">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/12/89/5d/af15a6e0-20e1-4a35.jpg?w=800&h=-1&s=1"
+                            alt="">
+                    </div>
+                    <div class="slide3__description">
+                        <h4>4 best hawker centres in Singapore and what to eat there</h4>
+                    </div>
+                </div>
+                <div class="slide__images3">
+                    <div class="slideimage1">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/13/54/04/13e73606-ba6e-4e90.jpg?w=800&h=-1&s=1"
+                            alt="">
+                    </div>
+                    <div class="slide3__description">
+                        <h4>116 stunning infinity pools in the world that are worth the trip</h4>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <button class="next1" onclick="moveSlide3(1)"><i class="fa-solid fa-arrow-right fa-lg"></i></button>
+    </div>
+    <div class="sec-7">
+        <button class="prev2" onclick="moveSlide4(-1)"><i class="fa-solid fa-arrow-left fa-lg"></i></button>
+        <div class="sec-7-container">
+            <h2 class="sec-6__title">Dream Your Next Trip</h2>
+            <h3>Weekend getaways from Coimbatore</h3>
+            <div class="sliders4">
+                <!-- <div class="seaside__container"></div> -->
+
+                <div class="slide__images4">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/84/3c/bc/upper-bhavani-lake.jpg?w=600&h=600&s=1"
+                        alt="">
+                    <h2 class="seaside__title">
+                        Ooty, <br>
+                        India
+                    </h2>
+
+                </div>
+                <div class="slide__images4">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/fb/fd/e4/jambukeswarar-temple.jpg?w=600&h=600&s=1"
+                        alt="">
+                    <h2 class="seaside__title">
+                        Tiruchirappalli, India</h2>
+
+                </div>
+                <div class="slide__images4">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/22/62/8b/taken-on-the-float-festival.jpg?w=600&h=600&s=1"
+                        alt="">
+                    <h2 class="seaside__title">
+                        Madurai, <br>India</h2>
+
+                </div>
+                <div class="slide__images4">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/d2/2f/7a/palace-from-the-outside.jpg?w=600&h=600&s=1"
+                        alt="">
+                    <h2 class="seaside__title">
+                        Bengaluru, <br>India</h2>
+
+                </div>
+                <div class="slide__images4">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/bb/cf/09/thiruvalluvar-statue.jpg?w=600&h=600&s=1"
+                        alt="">
+                    <h2 class="seaside__title">
+                        Kanyakumari, <br>India</h2>
+
+                </div>
+                <div class="slide__images4">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/9e/48/ea/anjengo-fort.jpg?w=600&h=600&s=1"
+                        alt="">
+                    <h2 class="seaside__title">
+                        Varkala Town, <br>India</h2>
+
+                </div>
+                <div class="slide__images4">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/cd/6c/f3/photo0jpg.jpg?w=600&h=600&s=1"
+                        alt="">
+                    <h2 class="seaside__title">
+                        Rameswaram, <br>India</h2>
+
+                </div>
+                <div class="slide__images4">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/36/1f/f9/bahia-de-bengala.jpg?w=600&h=600&s=1"
+                        alt="">
+                    <h2 class="seaside__title">
+                        Mahabalipuram,<br> India</h2>
+
+                </div>
+            </div>
+
+        </div>
+        <button class="next2" onclick="moveSlide4(1)"><i class="fa-solid fa-arrow-right fa-lg"></i></button>
+    </div>
+    <div class="sec-8">
+        <div class="sec-8-conitainer">
+            <div class="sec-8-container__image">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/50/42/98/caption.jpg?w=1100&h=-1&s=1"
+                    alt="">
+            </div>
+            <div class="sec-8-container__description">
+                <div class="sec-8-container__title">
+                    <img src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg" alt="">
+                    <div class="sec-8-container__title__sponser">
+                        <h4> Sponserd by </h4>
+                        <h4 class="sec-8-container__title__link"><a href=""> wanderlab</a></h4>
+                    </div>
+
+                </div>
+
+                <div class="sec-8-container__title__about">
+                    <h1>Watch The Wanderer</h1>
+                    <p>Tripadvisor’s award-winning travel series, now streaming on Amazon Prime Video</p>
+                    <button class="sec-8-container__title__about__btn">Learn more</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="sec-9">
+        <div class="sec-9__footer">
+            <div class="sec-9__footer__about">
+                <div class="about-tripadvisor">
+                    <p class="about-tripadvisor__title">About Tripadvisor</p>
+                    <ul>
+                        <li class="about-tripadvisor-options">About Us</li>
+                        <li class="about-tripadvisor-options">Press</li>
+                        <li class="about-tripadvisor-options">Resources and policiees</li>
+                        <li class="about-tripadvisor-options">Careers</li>
+                        <li class="about-tripadvisor-options">Trust & Safety</li>
+                        <li class="about-tripadvisor-options">Contact us</li>
+                        <li class="about-tripadvisor-options">Accessibility Statement</li>
+                    </ul>
+                </div>
+                <div class="about-explore">
+                    <p class="about-tripadvisor__title">Explore</p>
+                    <ul>
+                        <li class="about-tripadvisor-options">Write a review</li>
+                        <li class="about-tripadvisor-options">Add a Place</li>
+                        <li class="about-tripadvisor-options">Join</li>
+                        <li class="about-tripadvisor-options">Traveller's Choice</li>
+                        <li class="about-tripadvisor-options">Help Center</li>
+                        <li class="about-tripadvisor-options">Travel Stories</li>
+                    </ul>
+                </div>
+                <div class="about-Do bussiness with Us">
+                    <p class="about-tripadvisor__title">Do Bussines With Us</p>
+                    <ul>
+                        <li class="about-tripadvisor-options">Owners & DMO/CVB</li>
+                        <li class="about-tripadvisor-options">Bussiness Advantage</li>
+                        <li class="about-tripadvisor-options">Sponcered Placements</li>
+                        <li class="about-tripadvisor-options">Access our Content API</li>
+                    </ul><br>
+                    <p class="about-tripadvisor__title">Get The App</p>
+                    <ul>
+                        <li class="about-tripadvisor-options">iPhone App</li>
+                        <li class="about-tripadvisor-options">Android App</li>
+                    </ul>
+
+                </div>
+                <div class="about-sites">
+                    <p class="about-tripadvisor__title">Tripadvisor Sites</p>
+                    <p>Back tours and attraction tickes on <a href="">Viator</a></p>
+                </div>
+            </div>
+            <div class="sec-9__footer-2">
+                <div class="sec-9__footer-2__title">
+                    <img src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg" alt="">
+                    <div class="sec-9__footer-2__title__license">
+                        <p>© 2025 Tripadvisor LLC All rights reserved.</p>
+                        <div class="sec-9__footer-2__title__license__cointainer">
+                            <h4 class="sec-9__footer-2__title__license__termsanduse">
+                                Term of Use
+                            </h4>
+                            <h4 class="sec-9__footer-2__title__license__termsanduse">
+                                Privacy and Cookies Statement
+                            </h4>
+                            <h4 class="sec-9__footer-2__title__license__termsanduse">
+                                Cookie consent
+                            </h4>
+                            <h4 class="sec-9__footer-2__title__license__termsanduse">
+                                Site Map
+                            </h4>
+                            <h4 class="sec-9__footer-2__title__license__termsanduse">
+                                How the site works
+                            </h4>
+                            <h4 class="sec-9__footer-2__title__license__termsanduse">
+                                Contact us
+                            </h4>
+                             </div>
+                        
+                    </div>
+                </div>
+                <div class="sec-9__footer-2__countries">
+                    <div class="sec-9__footer-2__countriesruppes">
+                        <select id="rupees">
+                            <option value="">₹ INR</option>
+                            <option value="">₹ INR</option>
+                            <option value="">₹ INR</option>
+                            <option value="">₹ INR</option>
+                        </select>
+                        <select  id="country">
+                            <option value="">India</option>
+                            <option value="">China</option>
+                            <option value="">Dubai</option>
+                            <option value="">United States</option>
+                        </select>
+                    </div>
+
+                    <div class="sec-9__footer-2__socialmedia">
+                        <i class="fa-brands fa-facebook fa-lg"></i>
+                        <i class="fa-brands fa-x-twitter fa-lg"></i>
+                        <i class="fa-brands fa-pinterest fa-lg"></i>
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                        <i class="fa-brands fa-youtube fa-lg"></i>
+                        <i class="fa-brands fa-tiktok fa-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
