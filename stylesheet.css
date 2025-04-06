@@ -56,7 +56,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 999;
+    padding: 20px 0px;
+    border-bottom: 1px solid black;
 }
 
 .navabar_titleicon {
